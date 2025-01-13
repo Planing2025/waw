@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>كلية طب الأسنان - جامعة البصرة</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Cairo', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+        .form-container {
+            width: 210mm;
+            height: 297mm;
+            background: white;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            border-radius: 8px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .header h1 {
+            font-size: 24px;
+            margin: 0;
+            color: #333;
+        }
+        .form-group {
+            margin-bottom: 15px;
+        }
+        .form-group label {
+            display: block;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        .form-group input {
+            width: 100%;
+            padding: 10px;
+            font-size: 14px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+        .signature {
+            margin-top: 30px;
+            text-align: right;
+        }
+        .signature span {
+            display: block;
+            margin-top: 40px;
+            font-size: 16px;
+            font-weight: bold;
+        }
+        .btn {
+            display: inline-block;
+            margin: 20px 0;
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: white;
+            text-align: center;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        .btn:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="form-container" id="form">
+        <div class="header">
+            <h1>كلية طب الأسنان - جامعة البصرة</h1>
+        </div>
+        <div class="form-content">
+            <div class="form-group">
+                <label for="fullName">الاسم الثلاثي</label>
+                <input type="text" id="fullName" placeholder="أدخل الاسم الثلاثي" required>
+            </div>
+            <div class="form-group">
+                <label for="jobTitle">العنوان الوظيفي أو اللقب العلمي</label>
+                <input type="text" id="jobTitle" placeholder="أدخل العنوان الوظيفي" required>
+            </div>
+            <div class="form-group">
+                <label for="degree">الشهادة الحاصل عليها</label>
+                <input type="text" id="degree" placeholder="أدخل الشهادة الحاصل عليها" required>
+            </div>
+            <div class="form-group">
+                <label for="workPlace">مكان العمل</label>
+                <input type="text" id="workPlace" placeholder="أدخل مكان العمل" required>
+            </div>
+            <div class="form-group">
+                <label for="position">المنصب</label>
+                <input type="text" id="position" placeholder="أدخل المنصب" required>
+            </div>
+            <div class="form-group">
+                <label for="phoneNumber">رقم الهاتف</label>
+                <input type="text" id="phoneNumber" placeholder="أدخل رقم الهاتف" required>
+            </div>
+            <div class="form-group">
+                <label for="email">البريد الإلكتروني</label>
+                <input type="email" id="email" placeholder="أدخل البريد الإلكتروني" required>
+            </div>
+        </div>
+        <div class="signature">
+            <span>التوقيع: ...................................................</span>
+        </div>
+  </body>
+</html>
